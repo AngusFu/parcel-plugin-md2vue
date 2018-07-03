@@ -1,0 +1,1 @@
+# parcel-plugin-md2vue
