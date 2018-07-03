@@ -1,0 +1,19 @@
+{
+  "name": "parcel-plugin-md2vue",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "repository": "https://github.com/AngusFu/parcel-plugin-md2vue.git",
+  "author": "wemlion <angusfu1126@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "md2vue": "4.0.0-alpha.2",
+    "parcel-bundler": "^1.9.4"
+  },
+  "devDependencies": {
+    "fs-extra": "^6.0.1",
+    "jest": "^23.2.0"
+  },
+  "scripts": {
+    "test": "jest test/index.spec.js"
+  }
+}

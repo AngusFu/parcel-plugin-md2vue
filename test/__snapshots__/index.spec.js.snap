@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should works as expected 1`] = `
+"// modules are defined as an array
+// [ module function, map of requires ]
+//
+// map of requires is short require name -> numeric require
+//
+// anything defined in a previous bundle is accessed via the
+// orig method which is the require for previous bundles
+
+// eslint-disable-next-line no-global-assign
+parcelRequire = (function (modules, cache, entry, globalName) {
+  // Save the require from previous bundle to this closure if any
+  var previousRequire = typeof parcelRequire === 'function' && parcelRequire;
+  var nodeRequire = typeof require === 'function' && require;
+
+  function newRequire(name, jumped) {
+    if (!cache[name]) {
+      if (!modules[name]) {
+        // if we cannot find the module within our internal map or
+        // cache jump to the current global require ie. the last bundle
+        // that was added to the page.
+        var currentRequire = typeof parcelRequire === 'function' && parcelRequire;
+        if (!jumped && currentRequire) {
+          return currentRequire(name, true);
+        }
+
+        // If there are other bundles on this page the require from the
+        // previous one is saved to 'previousRequire'. Repeat this as
+        // many times as there are bundles until the module is found or
+        // we exhaust the require chain.
+        if (previousRequire) {
+          return previousRequire(name, true);
+        }
+
+        // Try the node require function if it exists.
+        if (nodeRequire && typeof name === 'string') {
+          return nodeRequire(name);
+        }
+
+        var err = new Error('Cannot find module \\\\'' + name + '\\\\'');
+        err.code = 'MODULE_NOT_FOUND';
+        throw err;
+      }
+
+      localRequire.resolve = resolve;
+
+      var module = cache[name] = new newRequire.Module(name);
+
+      modules[name][0].call(module.exports, localRequire, module, module.exports, this);
+    }
+
+    return cache[name].exports;
+
+    function localRequire(x){
+      return newRequire(localRequire.resolve(x));
+    }
+
+    function resolve(x){
+      return modules[name][1][x] || x;
+    }
+  }
+
+  function Module(moduleName) {
+    this.id = moduleName;
+    this.bundle = newRequire;
+    this.exports = {};
+  }
+
+  newRequire.isParcelRequire = true;
+  newRequire.Module = Module;
+  newRequire.modules = modules;
+  newRequire.cache = cache;
+  newRequire.parent = previousRequire;
+  newRequire.register = function (id, exports) {
+    modules[id] = [function (require, module) {
+      module.exports = exports;
+    }, {}];
+  };
+
+  for (var i = 0; i < entry.length; i++) {
+    newRequire(entry[i]);
+  }
+
+  if (entry.length) {
+    // Expose entry point to Node, AMD or browser globals
+    // Based on https://github.com/ForbesLindesay/umd/blob/master/template.js
+    var mainExports = newRequire(entry[entry.length - 1]);
+
+    // CommonJS
+    if (typeof exports === \\"object\\" && typeof module !== \\"undefined\\") {
+      module.exports = mainExports;
+
+    // RequireJS
+    } else if (typeof define === \\"function\\" && define.amd) {
+     define(function () {
+       return mainExports;
+     });
+
+    // <script>
+    } else if (globalName) {
+      this[globalName] = mainExports;
+    }
+  }
+
+  // Override the current require with this new one
+  return newRequire;
+})({1:[function(require,module,exports) {
+var __proxy = {};
+(function () {
+  var _$1 = this;
+
+  var _A = function () {
+    var _vm = this;
+
+    var _h = _vm.$createElement;
+
+    var _c = _vm._self._c || _h;
+
+    return _vm._m(0);
+  };
+
+  var _B = function () {
+    var _vm = this;
+
+    var _h = _vm.$createElement;
+
+    var _c = _vm._self._c || _h;
+
+    return _c('div', {
+      staticClass: \\"vue-demo\\"
+    }, [_c('b', [_vm._v(\\"hello\\")])]);
+  };
+
+  var _C = function () {
+    var _vm = this;
+
+    var _h = _vm.$createElement;
+
+    var _c = _vm._self._c || _h;
+
+    return _c('article', {
+      staticClass: \\"markdown-body\\"
+    }, [_c('h1', [_vm._v(\\"Hello world\\")]), _vm._v(\\" \\"), _c('div', {
+      staticClass: \\"vue-demo-block\\"
+    }, [_c('md2vuedemo0'), _vm._v(\\"\\\\nundefined\\\\n\\"), _vm._m(0)], 1)]);
+  };
+
+  var _D = function () {
+    var _vm = this;
+
+    var _h = _vm.$createElement;
+
+    var _c = _vm._self._c || _h;
+
+    return _c('pre', {
+      pre: true,
+      attrs: {
+        \\"class\\": \\"lang-html\\"
+      }
+    }, [_c('code', [_c('span', {
+      attrs: {
+        \\"class\\": \\"hljs-tag\\"
+      }
+    }, [_vm._v(\\"<\\"), _c('span', {
+      attrs: {
+        \\"class\\": \\"hljs-name\\"
+      }
+    }, [_vm._v(\\"b\\")]), _vm._v(\\">\\")]), _vm._v(\\"hello\\"), _c('span', {
+      attrs: {
+        \\"class\\": \\"hljs-tag\\"
+      }
+    }, [_vm._v(\\"</\\"), _c('span', {
+      attrs: {
+        \\"class\\": \\"hljs-name\\"
+      }
+    }, [_vm._v(\\"b\\")]), _vm._v(\\">\\")])])]);
+  };
+
+  var _E = function (Vue) {
+    Vue.component(_4.name, _4);
+  };
+
+  var _7 = [_B];
+  var _6 = {
+    render: _A,
+    staticRenderFns: _7
+  };
+  var _5 = {
+    md2vuedemo0: _6
+  };
+  var _8 = [_D];
+  var _4 = {
+    components: _5,
+    render: _C,
+    staticRenderFns: _8,
+    name: \\"default\\",
+    install: _E
+  };
+  _$1.Default = _4;
+
+}).call(__proxy);
+
+var component = __proxy.Default;
+typeof exports === 'object' && typeof module !== 'undefined' && (module.exports = component);
+typeof window !== void 0 && window.Vue && Vue.use(component);
+
+},{}]},{},[1], null)"
+`;
