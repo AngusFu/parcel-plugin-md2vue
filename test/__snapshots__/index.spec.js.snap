@@ -195,14 +195,14 @@ var __proxy = {};
     components: _5,
     render: _C,
     staticRenderFns: _8,
-    name: \\"default\\",
+    name: \\"fixture\\",
     install: _E
   };
-  _$1.Default = _4;
+  _$1.Fixture = _4;
 
 }).call(__proxy);
 
-var component = __proxy.Default;
+var component = __proxy.Fixture;
 typeof exports === 'object' && typeof module !== 'undefined' && (module.exports = component);
 typeof window !== void 0 && window.Vue && Vue.use(component);
 
