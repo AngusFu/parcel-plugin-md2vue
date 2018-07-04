@@ -6,7 +6,7 @@
   "author": "wemlion <angusfu1126@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "md2vue": "4.0.0-alpha.2",
+    "md2vue": "^4.0.0-alpha.5",
     "parcel-bundler": "^1.9.4"
   },
   "devDependencies": {
