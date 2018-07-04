@@ -6,8 +6,9 @@
   "author": "wemlion <angusfu1126@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "md2vue": "^4.0.0-alpha.5",
-    "parcel-bundler": "^1.9.4"
+    "md2vue": "^4.0.0-alpha.6",
+    "parcel-bundler": "^1.9.4",
+    "yaml-front-matter": "^4.0.0"
   },
   "devDependencies": {
     "fs-extra": "^6.0.1",

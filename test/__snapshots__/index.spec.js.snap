@@ -144,7 +144,7 @@ var __proxy = {};
       staticClass: \\"markdown-body\\"
     }, [_c('h1', [_vm._v(\\"Hello world\\")]), _vm._v(\\" \\"), _c('div', {
       staticClass: \\"vue-demo-block\\"
-    }, [_c('md2vuedemo0'), _vm._v(\\"\\\\nundefined\\\\n\\"), _vm._m(0)], 1)]);
+    }, [_c('md2vuedemo0'), _vm._v(\\" \\"), _vm._m(0)], 1)]);
   };
 
   var _D = function () {
@@ -195,16 +195,18 @@ var __proxy = {};
     components: _5,
     render: _C,
     staticRenderFns: _8,
-    name: \\"fixture\\",
+    name: \\"users-yywl-documents-code-parcel-plugin-md-2-vue-fixture-md\\",
     install: _E
   };
-  _$1.Fixture = _4;
+  _$1.UsersYywlDocumentsCodeParcelPluginMd2VueFixtureMd = _4;
 
 }).call(__proxy);
 
-var component = __proxy.Fixture;
+var component = __proxy.UsersYywlDocumentsCodeParcelPluginMd2VueFixtureMd;
 typeof exports === 'object' && typeof module !== 'undefined' && (module.exports = component);
 typeof window !== void 0 && window.Vue && Vue.use(component);
+
+module.exports.$$metadata = {}
 
 },{}]},{},[1], null)"
 `;

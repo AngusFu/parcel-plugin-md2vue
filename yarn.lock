@@ -1340,6 +1340,10 @@ command-exists@^1.2.6:
   version "1.2.7"
   resolved "https://registry.npmjs.org/command-exists/-/command-exists-1.2.7.tgz#16828f0c3ff2b0c58805861ef211b64fc15692a8"
 
+commander@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/commander/-/commander-1.0.0.tgz#5e6a88e7070ff5908836ead19169548c30f90bcd"
+
 commander@^2.11.0, commander@^2.9.0:
   version "2.16.0"
   resolved "https://registry.npmjs.org/commander/-/commander-2.16.0.tgz#f16390593996ceb4f3eeb020b31d78528f7f8a50"
@@ -3593,9 +3597,9 @@ math-expression-evaluator@^1.2.14:
   version "1.2.17"
   resolved "https://registry.npmjs.org/math-expression-evaluator/-/math-expression-evaluator-1.2.17.tgz#de819fdbcd84dccd8fae59c6aeb79615b9d266ac"
 
-md2vue@^4.0.0-alpha.5:
-  version "4.0.0-alpha.5"
-  resolved "https://registry.npmjs.org/md2vue/-/md2vue-4.0.0-alpha.5.tgz#c21a26cb8f83fe1a5a89280fba9104537dd05a92"
+md2vue@^4.0.0-alpha.6:
+  version "4.0.0-alpha.6"
+  resolved "https://registry.npmjs.org/md2vue/-/md2vue-4.0.0-alpha.6.tgz#c9b205b64ce43d273b87425dbddd9d6b1f445fca"
   dependencies:
     buble "^0.15.2"
     highlight.js "^9.12.0"
@@ -6334,6 +6338,13 @@ yallist@^2.1.2:
 yallist@^3.0.0, yallist@^3.0.2:
   version "3.0.2"
   resolved "https://registry.npmjs.org/yallist/-/yallist-3.0.2.tgz#8452b4bb7e83c7c188d8041c1a837c773d6d8bb9"
+
+yaml-front-matter@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/yaml-front-matter/-/yaml-front-matter-4.0.0.tgz#11c378c54eac3061a82cbaf693a69b4e4c44f484"
+  dependencies:
+    commander "1.0.0"
+    js-yaml "^3.10.0"
 
 yargs-parser@^5.0.0:
   version "5.0.0"
