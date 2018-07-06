@@ -111,7 +111,7 @@ var __proxy = {};
 (function () {
   var _$1 = this;
 
-  var _A = function () {
+  var _C = function () {
     var _vm = this;
 
     var _h = _vm.$createElement;
@@ -121,7 +121,7 @@ var __proxy = {};
     return _vm._m(0);
   };
 
-  var _B = function () {
+  var _D = function () {
     var _vm = this;
 
     var _h = _vm.$createElement;
@@ -133,7 +133,7 @@ var __proxy = {};
     }, [_c('b', [_vm._v(\\"hello\\")])]);
   };
 
-  var _C = function () {
+  var _E = function () {
     var _vm = this;
 
     var _h = _vm.$createElement;
@@ -147,7 +147,7 @@ var __proxy = {};
     }, [_c('md2vuedemo0'), _vm._v(\\" \\"), _vm._m(0)], 1)]);
   };
 
-  var _D = function () {
+  var _F = function () {
     var _vm = this;
 
     var _h = _vm.$createElement;
@@ -178,25 +178,29 @@ var __proxy = {};
     }, [_vm._v(\\"b\\")]), _vm._v(\\">\\")])])]);
   };
 
-  var _E = function (Vue) {
+  var _G = function (Vue) {
     Vue.component(_4.name, _4);
   };
 
-  var _7 = [_B];
-  var _6 = {
-    render: _A,
-    staticRenderFns: _7
-  };
   var _5 = {
-    md2vuedemo0: _6
+    title: void 0
   };
-  var _8 = [_D];
-  var _4 = {
-    components: _5,
+  var _9 = [_D];
+  var _8 = {
     render: _C,
-    staticRenderFns: _8,
+    staticRenderFns: _9
+  };
+  var _7 = {
+    md2vuedemo0: _8
+  };
+  var _A = [_F];
+  var _4 = {
+    metaInfo: _5,
+    components: _7,
+    render: _E,
+    staticRenderFns: _A,
     name: \\"users-yywl-documents-code-parcel-plugin-md-2-vue-fixture-md\\",
-    install: _E
+    install: _G
   };
   _$1.UsersYywlDocumentsCodeParcelPluginMd2VueFixtureMd = _4;
 
@@ -204,8 +208,7 @@ var __proxy = {};
 
 var component = __proxy.UsersYywlDocumentsCodeParcelPluginMd2VueFixtureMd;
 typeof exports === 'object' && typeof module !== 'undefined' && (module.exports = component);
-typeof window !== void 0 && window.Vue && Vue.use(component);
-
+typeof window !== 'undefined' && false
 module.exports.$$metadata = {}
 
 },{}]},{},[1], null)"

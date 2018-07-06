@@ -1344,7 +1344,7 @@ commander@1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/commander/-/commander-1.0.0.tgz#5e6a88e7070ff5908836ead19169548c30f90bcd"
 
-commander@^2.11.0, commander@^2.9.0:
+commander@^2.11.0, commander@^2.9.0, commander@~2.16.0:
   version "2.16.0"
   resolved "https://registry.npmjs.org/commander/-/commander-2.16.0.tgz#f16390593996ceb4f3eeb020b31d78528f7f8a50"
 
@@ -3597,9 +3597,9 @@ math-expression-evaluator@^1.2.14:
   version "1.2.17"
   resolved "https://registry.npmjs.org/math-expression-evaluator/-/math-expression-evaluator-1.2.17.tgz#de819fdbcd84dccd8fae59c6aeb79615b9d266ac"
 
-md2vue@^4.0.0-alpha.6:
-  version "4.0.0-alpha.6"
-  resolved "https://registry.npmjs.org/md2vue/-/md2vue-4.0.0-alpha.6.tgz#c9b205b64ce43d273b87425dbddd9d6b1f445fca"
+md2vue@^4.0.0-alpha.8:
+  version "4.0.0-alpha.8"
+  resolved "https://registry.npmjs.org/md2vue/-/md2vue-4.0.0-alpha.8.tgz#4ea3c3c1cb9a90e925bc02f9e246a7b070401efb"
   dependencies:
     buble "^0.15.2"
     highlight.js "^9.12.0"
@@ -5955,6 +5955,13 @@ uglify-js@^2.6, uglify-js@^2.6.1:
     yargs "~3.10.0"
   optionalDependencies:
     uglify-to-browserify "~1.0.0"
+
+uglify-js@^3.4.3:
+  version "3.4.3"
+  resolved "https://registry.npmjs.org/uglify-js/-/uglify-js-3.4.3.tgz#a4fd757b6f34a95f717f7a7a0dccafcaaa60cf7f"
+  dependencies:
+    commander "~2.16.0"
+    source-map "~0.6.1"
 
 uglify-to-browserify@~1.0.0:
   version "1.0.2"
